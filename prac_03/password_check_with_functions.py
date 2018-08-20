@@ -7,8 +7,7 @@ def main():
 
 
 def get_password():
-    password = validate_password(MIN_LENGTH)
-    return password
+    return validate_password(MIN_LENGTH)
 
 
 def validate_password(min_length):
