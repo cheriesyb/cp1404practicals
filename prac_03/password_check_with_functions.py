@@ -2,12 +2,8 @@ MIN_LENGTH = 4
 
 
 def main():
-    password = get_password()
+    password = validate_password(MIN_LENGTH)
     print_stars(password)
-
-
-def get_password():
-    return validate_password(MIN_LENGTH)
 
 
 def validate_password(min_length):
@@ -17,14 +13,8 @@ def validate_password(min_length):
     return password
 
 
-def password():
-    global print_stars
-
-    def print_stars(sequence):
-        print('*' * len(sequence))
-
-
-password()
+def print_stars(sequence):
+    print('*' * len(sequence))
 
 
 main()
