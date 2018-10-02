@@ -5,6 +5,10 @@ def main():
     print(prius)
     prius.drive(40)
     print(prius)
+    prius.start_fare()
+    print(prius)
+    prius.drive(100)
+    print(prius)
 
 
 main()
